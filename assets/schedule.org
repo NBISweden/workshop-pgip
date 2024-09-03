@@ -1,0 +1,10 @@
+| Day        | Date     |        Time | Topic                                  | Lecturer / TA | Type      |
+|------------+----------+-------------+----------------------------------------+---------------+-----------|
+| **Monday** | 06/11/23 |             | **Variant calling**                    |               |           |
+|            |          | 08:30-09:00 | Coffee and welcome                     | TBA           |           |
+|            |          | 09:00-09:30 | Introduction and practical information | TBA           |           |
+|            |          | 09:30-10:00 | Population genomics in practice        | TBA           | Lecture   |
+|            |          | 10:00-10:30 | Coffee                                 |               |           |
+|            |          | 10:30-11:30 | Population genetics foundations        | TBA           | Lecture   |
+|            |          | 11:30-12:00 | Foundations mini-practical             | TBA           | Practical |
+|            |          |             |                                        |               |           |

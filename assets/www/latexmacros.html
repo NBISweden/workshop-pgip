@@ -1,0 +1,35 @@
+
+
+I would use your option C, but with include-in-header, e.g.
+
+project:
+  type: book
+
+book:
+  title: "testbook"
+  author: "Jane Doe"
+  date: "23.11.2022"
+  chapters:
+    - index.qmd
+    - intro.qmd
+
+format:
+    html:
+      include-in-header:
+         - file: macros.html
+    pdf:
+      include-in-header:
+         - text: |
+               \newcommand{\foo}{E=mc^{2}}
+
+with macros.qmd:
+
+---
+format: html
+---
+
+::: {.hidden}
+$$
+\definecolor{lime75}{#bdd775}
+$$
+:::

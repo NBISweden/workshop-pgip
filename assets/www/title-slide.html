@@ -1,0 +1,15 @@
+<section id="$idprefix$title-slide"$for(title-slide-attributes/pairs)$ $it.key$="$it.value$"$endfor$>
+  <h1 class="title">$title$</h1>
+$if(subtitle)$
+  <h3 class="subtitle">$subtitle$</h3>
+$endif$
+$for(author)$
+  <h4 class="author">$author$</h4>
+$endfor$
+$for(institute)$
+  <h4 class="institute">$institute$</h4>
+$endfor$
+$if(date)$
+  <h4 class="date">$date$</h4>
+$endif$
+</section>

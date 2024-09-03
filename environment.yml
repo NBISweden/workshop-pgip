@@ -1,0 +1,21 @@
+name: pgip2024
+channels:
+  - conda-forge
+  - bioconda
+  - default
+dependencies:
+  - r-codetools
+  - r-downlit
+  - r-dplyr
+  - r-formattable
+  - r-googledrive
+  - r-googlesheets4
+  - r-kableextra
+  - r-leaflet
+  - r-lubridate
+  - r-readxl
+  - r-reticulate
+  - r-rmarkdown
+  - r-tidyverse
+  - r-toastui
+  - r-xml2
