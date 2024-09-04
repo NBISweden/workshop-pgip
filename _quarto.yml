@@ -9,12 +9,19 @@ project:
 website:
   title: "Population Genomics In Practice H24"
   navbar:
+    logo: assets/logos/nbislogo-green.svg
+    favicon: assets/logos/nbislogo-green.svg
     left:
       - href: index.qmd
         text: Home
-      - schedule.qmd
+      # - schedule.qmd
       - info.qmd
       - syllabus.qmd
+  page-footer:
+    border: false
+    left: "2024 [NBIS](https://nbis.se) | [GPL-3 License](https://choosealicense.com/licenses/gpl-3.0/)"
+    right: "Published with [Quarto](https://quarto.org/) v<?quarto.version?>"
+
 
 from: markdown+emoji
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
