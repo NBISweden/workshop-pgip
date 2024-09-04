@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "info.html",
+    "href": "info.html",
+    "title": "Practical info",
+    "section": "",
+    "text": "This workshop is organised by the National Bioinformatics Infrastructure, Sweden (NBIS). NBIS is a platform of the Science for Life Laboratory (SciLifeLab).\nIf you would like to get in touch with us regarding this workshop, please contact us at edu.population-genomics-in-practice [at] nbis.se or edu.pgip [at] nbis.se."
+  },
+  {
+    "objectID": "info.html#organizers",
+    "href": "info.html#organizers",
+    "title": "Practical info",
+    "section": "Organizers",
+    "text": "Organizers\n\n\n\nPer Unneberg\n\n\n\nNikolay Oskolkov\n\n\n\nJason Hill\n\n\n\nAndré Soares"
+  },
+  {
+    "objectID": "info.html#venue",
+    "href": "info.html#venue",
+    "title": "Practical info",
+    "section": "Venue",
+    "text": "Venue\nThe workshop is held onsite in Trippelrummet in Navet at the Uppsala Biomedical Centre, Uppsala.\n\nLocation\n\n\nUppsala\n\nRoom E10:1309 Entrance C11 Biomedicinskt centrum Uppsala University / ScilifeLab Husargatan 3 75237 Uppsala Sweden\nSome selected hotels are listed below ranked by distance from the venue.\n\n\nHotel von Kraemer (900 m, 11 min walk)\n\nAkademihotellet (1.7 Km, 21 min walk)\n\nCityStay Hotell (1.8 Km, 21 min walk)\n\nGrand Hotel Hörnan (1.9 Km, 23 min walk)\n\nHotell Centralstation (2.1 Km, 25 min walk)\n\nBest Western Svava (2.2 Km, 26 min walk)\n\nThe venue and hotels are also marked on the map.\nUse the UL website or the UL app for bus and train services around Uppsala. For buses from the Centralstation (Train/Bus), take Bus 4 (towards Gottsunda Centrum) or 8 (towards Sunnersta) and get off at the stop Uppsala Science Park. Bus tickets can be purchased in the app or directly from the driver using a credit card."
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Note\n\n\n\nThe schedule is being updated.\n\n\n\n\n\n\n\nToday"
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "The aim of this workshop is to provide an introduction to commonly used methods in population genomics. As the focus of the course is on hands-on work, the topics have been designed to cover the fundamental analyses that are common in many population genomics studies. The course consists of lectures and exercises, with a focus on the practical aspects of analyses. Whereas lectures introduce some background theory, their primary aim is to set the stage for accompanying exercises.\n\nCovered topicsLearning objectivesRequirements\n\n\n\nFoundations of population genetics\nIntroduction to simulation and the coalescent\nBasics of variant calling\nVariant filtering and sequence masks\nCharacterization and intepretation of DNA sequence variation\nCalculation and interpretation of summary statistics from variation data\nInvestigating population structure with admixture modelling and principal component analyses\nDemographic modelling using sequentially Markovian coalescent models and linkage disequlibrium\nSelection scans\n\n\n\nUpon completion of this course, you will be able to:\n\ndescribe the different forces of evolution and how they influence genetic variation\nunderstand and interpret genealogical trees and how they relate to genetic variation data\ndescribe the basics of the coalescent\nperform simple coalescent simulations with msprime\nrun simple SLiM forward simulation models\ndescribe and run the steps of a variant calling pipeline, including quality control of raw reads, read mapping, and variant calling\nknow how and when to filter raw variant calls using manual coverage filters\ndescribe and calculate nucleotide diversity from variation data\nanalyze population structure with admixture modelling and dimensionality reduction methods\nperform demographic modelling with sequential Markovian coalescent models\ndescribe methods that identify regions undergoing adaptation and selection\nrun selection scans, score identified regions and interpret findings in the context of genome annotations\n\n\n\n\nBasic knowledge in R or Python\nBasic knowledge of variant calling, or the equivalent of NBIS course “Introduction to Bioinformatics using NGS data”\nBasic knowledge of population genetics\nBasic understanding of frequentist statistics\nA computer\n\nDesirable:\n\nExperience with analysis of NGS and other omic data"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Population Genomics In Practice H24",
+    "section": "",
+    "text": "NBIS • Workshop\nDDLS Population genomics in practice\nWelcome to the DDLS Population Genomics in Practice homepage!\nImportant dates and information\nSee the canvas home page for the current course NBIS_POPGENIP_H24 for more information on how to apply.\n\n\n\nNext round\n02-Dec-2024 - 06-Dec-2024\n\n\nApplication opens\n09-Sep-2024\n\n\nApplication deadline\n15-Oct-2024\n\n\n\nBrief contents\n\n\nThis workshop includes the following moments:\n\nVariant calling and filtering\nDescribing and summarising variation data\nPopulation structure\nDemographic analysis\nSelection scans\nCoalescent simulation\n\nSee syllabus for a more complete description of course contents and info for practical information on venue and hotels.\n\n\n\n\nCourse archive\n\nDDLS Population Genomics In Practice 2023\n\n\n\n\n\n\n\nLast updated on  04-Sep-2024"
+  }
+]
