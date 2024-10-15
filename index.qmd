@@ -42,6 +42,12 @@ See the canvas home page for the current course
 [`r current`](`r session$canvas_home_page`) for more
 information on how to apply.
 
+::: {.callout-important}
+
+The application deadline has been extended to the end of October.
+
+:::
+
 ```{r }
 #| label: print-course-dates
 #| echo: false
