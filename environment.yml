@@ -1,9 +1,10 @@
-name: pgip2024
+name: pgipwebsite
 channels:
   - conda-forge
   - bioconda
   - default
 dependencies:
+  - r-devtools
   - r-codetools
   - r-downlit
   - r-dplyr
