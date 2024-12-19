@@ -1,5 +1,5 @@
 ---
-pagetitle: "Population Genomics In Practice H24"
+pagetitle: "Population Genomics In Practice H25"
 toc: false
 date: last-modified
 sidebar: false
