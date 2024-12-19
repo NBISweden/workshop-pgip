@@ -40,12 +40,6 @@ Welcome to the DDLS Population Genomics in Practice homepage!
 
 #### Important dates and information
 
-::: {.callout-important}
-
-The course instance NBIS_POPGENIP_H24 has been cancelled. We are in the process of planning a course late Spring 2025.
-
-:::
-
 See the canvas home page for the current course
 [`r current`](`r session$canvas_home_page`) for more
 information on how to apply.
@@ -65,10 +59,9 @@ df <- data.frame(
   title = c("Next round", "Application opens", "Application deadline"),
   data = c(
     paste0(
-        #format(as_datetime(session$start_time), "%d-%b-%Y"),
-        #" - ",
-        #format(as_datetime(session$end_time), "%d-%b-%Y")
-        "CANCELLED"
+        format(as_datetime(session$start_time), "%d-%b-%Y"),
+        " - ",
+        format(as_datetime(session$end_time), "%d-%b-%Y")
     ),
     format(as_datetime(session$application_opens), "%d-%b-%Y"),
     format(as_datetime(session$application_closes), "%d-%b-%Y")

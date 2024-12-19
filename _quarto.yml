@@ -7,7 +7,7 @@ project:
     - syllabus.qmd
 
 website:
-  title: "Population Genomics In Practice H24"
+  title: "Population Genomics In Practice H25"
   navbar:
     logo: assets/logos/nbislogo-green.svg
     favicon: assets/logos/nbislogo-green.svg
