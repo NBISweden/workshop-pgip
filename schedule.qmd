@@ -16,14 +16,14 @@ execute:
 
 ::: {.callout-note}
 
-The schedule is being updated.
+Schedule will be announced shortly.
 
 :::
 
 ```{r }
 #| label: toastui-calendar
 #| echo: false
-#| eval: true
+#| eval: false
 fn_rle <- function(x) {
   r <- rle(x)
   return(rep(paste(r$values, 1:length(r$values), sep = "-"), times = r$lengths))
@@ -36,7 +36,9 @@ dfr <- s %>%
   mutate(start = lubridate::dmy_hm(paste(.$date, .$time))) %>%
   mutate(start_time = lubridate::hm(time)) %>%
   group_by(date) %>%
-  mutate(delta = lead(start_time, default=start_time[length(start_time)]) - start_time) %>%
+  mutate(delta = lead(
+             start_time,
+             default=start_time[length(start_time)]) - start_time) %>%
   ungroup() %>%
   tidyr::drop_na(type) %>%
   mutate(end = start + delta) %>%
@@ -76,7 +78,7 @@ rownames(colors) <- colors$id
 
 calendar(dfr,
   view = "week", navigation = TRUE,
-  defaultDate = as.Date("2024-12-02"), height = 1000
+  defaultDate = as.Date("2025-09-15"), height = 1000
 ) %>%
   cal_week_options(
     startDayOfWeek = 1, hourStart = 9, hourEnd = 17,

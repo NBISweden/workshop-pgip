@@ -1,4 +1,4 @@
-<!-- markdownlint-disable MD041 -->
+<!-- markdownlint-disable MD041 MD013 -->
 
 ```{r }
 #| label: r-setup
@@ -27,4 +27,4 @@ s <- googlesheets4::read_sheet(url_schedule, sheet = "schedule-vertical", col_ty
 s <- s[!apply(s, 1, function(x) all(is.na(x))), ]
 ```
 
-<!-- markdownlint-enable MD041 -->
+<!-- markdownlint-enable MD041 MD013 -->

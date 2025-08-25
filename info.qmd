@@ -24,32 +24,31 @@ nbis.se** or **edu.pgip [at] nbis.se**.
 ## Organizers
 
 ::: {.organisers-parent}
+
 ::: {.organisers-child}
 
-![](assets/profile/per-unneberg.png)
-
-[Per Unneberg](https://nbis.se/about/staff)
+![[Jason
+Hill](https://nbis.se/about/staff)](assets/profile/jason-hill.jpg)
 
 :::
+
 ::: {.organisers-child}
 
-![](assets/profile/nikolay-oskolkov.jpg)
-
-[Nikolay Oskolkov](https://nbis.se/about/staff)
+![[Verena
+Kutschera](https://nbis.se/about/staff)](assets/profile/verena-kutschera.jpg)
 
 :::
+
 ::: {.organisers-child}
 
-![](assets/profile/jason-hill.jpg)
-
-[Jason Hill](https://nbis.se/about/staff)
+![[André Soares](https://nbis.se/about/staff)](assets/profile/andre-soares.png)
 
 :::
+
 ::: {.organisers-child}
 
-![](assets/profile/andre-soares.png)
-
-[André Soares](https://nbis.se/about/staff)
+![[Per
+Unneberg](https://nbis.se/about/staff)](assets/profile/per-unneberg.png)
 
 :::
 
