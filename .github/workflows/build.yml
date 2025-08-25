@@ -7,8 +7,8 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - 'main'
-      - 'test-build'
+      - "main"
+      - "test-build"
 
 jobs:
   build:
@@ -49,7 +49,7 @@ jobs:
 
       - name: Add miniconda path
         run: |
-          echo "$(dirname $(which R))" >> $GITHUB_PATH
+          dirname "$(which R)" >> "$GITHUB_PATH"
           quarto check
 
       - name: Render project without publishing

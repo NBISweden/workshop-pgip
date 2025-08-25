@@ -32,7 +32,8 @@ accompanying exercises.
   data
 - Investigating population structure with admixture modelling and
   principal component analyses
-- Demographic modelling using sequentially Markovian coalescent models and linkage disequlibrium
+- Demographic modelling using sequentially Markovian coalescent models
+  and linkage disequlibrium
 - Selection scans
 
 ## Learning objectives

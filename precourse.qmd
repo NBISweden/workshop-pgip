@@ -1,0 +1,150 @@
+---
+title: Precourse
+date: ""
+sidebar: false
+format: nbis-course-html
+---
+
+```{r }
+#| label: dummy-code
+#| echo: false
+#| eval: false
+```
+
+## Dardel compute resources
+
+<!-- markdownlint-disable MD013 -->
+
+Computer exercises can be run on the [Dardel HPC
+cluster](https://www.pdc.kth.se/hpc-services/computing-systems/dardel-hpc-system/dardel-1.1043529)
+at Stockholm maintained by [PDC](https://www.pdc.kth.se/). However,
+you can also opt to run exercises on your own computer (see [software
+installation](#sec-software-installation) below).
+
+<!-- markdownlint-enable MD013 -->
+
+### NAISS account
+
+<!-- markdownlint-disable MD013 -->
+
+You will need a [PDC
+account](https://support.pdc.kth.se/doc/getting_access/get_access/#applying-for-an-account)
+to run exercises on Dardel. This is easiest done by [applying for a
+SUPR account](https://supr.naiss.se/person/register/) and request
+access to the PGIP compute project `{{< var naissproject >}}`.
+
+<!-- markdownlint-enable MD013 -->
+
+### Dardel tutorials
+
+Look at <https://support.pdc.kth.se/doc/site_map/>, in particular
+<https://support.pdc.kth.se/doc/basics/quickstart/#how-to-log-in> for
+information on how to connect to and work on Dardel.
+
+## Software installation{#sec-software-installation}
+
+Although we will mainly work on Dardel, some exercises, notably the
+ones that utilise [Jupyter](https://jupyter.org/) notebooks, benefit
+from working in a local compute environment on your computer. We will
+use the [pixi](https://pixi.sh/latest/) package manager to install
+necessary requirements from the package repositories
+[bioconda](https://bioconda.github.io/) and
+[conda-forge](https://conda-forge.org/).
+
+To start using pixi, follow the [install
+instructions](https://pixi.sh/latest/installation/) to install. For a
+given exercise, software dependencise will be provided in a [pixi
+manifest](https://pixi.sh/latest/reference/pixi_manifest/#manifest-discovery),
+an example of which is shown here:
+
+```{lang="text" }
+[workspace]
+channels = ["conda-forge", "bioconda"]
+name = "variant-calling"
+
+[dependencies]
+fastqc = ">=0.12.1,<0.13"
+```
+
+Copy the contents to a file `pixi.toml` in an appropriately named
+directory (e.g., `variant-calling`), `cd` to directory and activate
+environment with `pixi shell`. As mentioned above, you can choose to
+run all exercises on a local computer if you have pixi setup. You
+would then need to download data. We have tried to make the exercise
+data sets small such that you can run them locally.
+
+## Suggested readings
+
+Topics have been organized in modular units that consist of
+introductory slides and exercises. Some of the topics rely on concepts
+in population genetics and we recommend you at least skim these
+theoretical slides to be fully prepared for lectures.
+
+[Population genomics in practice]({{< var pgip_material
+>}}/slides/pgip) provides a quick overview of population genomics.
+Although not required, it is recommended to briefly go through the
+following papers that will be discussed in the lecture:
+
+- @fuller_PopulationGeneticsCoral_2020 (most important)
+- @johri_RecommendationsImprovingStatistical_2022
+
+See [notes on usage]({{< var pgip_material
+>}}/slides/index.html#a-note-on-usage) for instructions how to view
+slides.
+
+## Resources
+
+### Literature
+
+Lecture notes have been prepared based on the literature listed below.
+
+#### Online
+
+Graham Coop's notes on population genetics
+: Comprehensive introduction to population genetics. Contains many
+biological examples and code snippets.
+[@grahamcoop_NotesPopulationGenetics_2020].
+
+Jonathan Pritchard's introduction to human population genetics.
+: Although focussing more on human data, contains excellent
+  explanations of statistical concepts and lots of instructive
+  drawings. [@pritchard_OwnerGuideHuman_]
+
+Joachim Hermisson's notes on mathematical population genetics
+: Introduction to mathematical population genetics [@hermisson_MathematicalPopulationGenetics_2017;
+@hermisson_MathematicalPopulationGenetics_2018].
+
+#### Books
+
+Population Genetics: A Concise Guide
+: John Gillespie's short but excellent introduction to population
+  genetics [@gillespie_PopulationGeneticsConcise_2004].
+
+Molecular Population Genetics
+: A more recent introduction to population genetics with more focus on
+  the analyses of sequencing data  [@hahn_MolecularPopulationGenetics_2019].
+
+Molecular Evolution and Phylogenetics
+: Overview of molecular evolution and population genetics, and also
+  phylogenetics [@nei_MolecularEvolutionPhylogenetics_2000].
+
+Mathematical Population Genetics I
+: A great reference when it comes to the mathematical treatment of
+  population genetics [@ewens_MathematicalPopulationGenetics_2004].
+
+Principles of Population Genetics
+: A comprehensive textbook covering most topics of population
+  genetics [@hartl1997principles].
+
+Elements of Evolutionary Genetics
+: Introduction to evolutionary genetics [@charlesworth_ElementsEvolutionaryGenetics_2010].
+
+Evolution
+: Great comprehensive textbook covering evolution [@barton2007evolution].
+
+Coalescent Theory: An Introduction
+: A great introduction to coalescent theory [@wakeley_CoalescentTheoryIntroduction_2008].
+
+Gene Genealogies, Variation and Evolution: A Primer in Coalescent Theory
+: Alternative introduction to coalescent with more focus on the
+  Wright-Fisher model [@hein2005gene].

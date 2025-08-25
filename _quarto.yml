@@ -1,10 +1,14 @@
 project:
   type: website
+  output-dir: _site
+  preview:
+    port: 8899
   render:
     - index.qmd
     - schedule.qmd
-    - info.qmd
     - syllabus.qmd
+    - info.qmd
+    - precourse.qmd
 
 website:
   title: "Population Genomics In Practice H25"
@@ -14,27 +18,32 @@ website:
     left:
       - href: index.qmd
         text: Home
-      # - schedule.qmd
-      - info.qmd
+      - schedule.qmd
+      - contents.qmd
       - syllabus.qmd
+      - info.qmd
+      - precourse.qmd
   page-footer:
     border: false
-    left: "2024 [NBIS](https://nbis.se) | [GPL-3 License](https://choosealicense.com/licenses/gpl-3.0/)"
+    left: "2025 [NBIS](https://nbis.se) | [GPL-3 License](https://choosealicense.com/licenses/gpl-3.0/)"
     right: "Published with [Quarto](https://quarto.org/) v<?quarto.version?>"
-
 
 from: markdown+emoji
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
-# bibliography: assets/bibliography.bib
+bibliography: assets/bibliography.bib
 
 format:
   nbis-course-html:
+    theme: assets/css/custom.scss
     toc: true
     embed-resources: false
     date: last-modified
     date-format: "DD-MMM-YYYY"
     code-link: true
     code-block-border-left: "#a7c947"
+    fontsize: 1.7em
+    grid:
+      body-width: 1200px
     lightbox:
       match: auto
 
@@ -48,23 +57,6 @@ execute:
   error: true
   freeze: auto
 
-knitr:
-  opts_chunk:
-    code-fold: false
-    tidy: true
-    comment-char: "#>"
-    fig-format: svg
-    engine.opts:
-      dvisvgm.opts: --font-format=woff
-      template: assets/www/tikzfig.tex
-
-# jupyter:
-#   kernelspec:
-#     name: "pgip"
-#     language: "python"
-#     display_name: "Python 3"
-
-    
 extensions:
   - nbis-course
   - fontawesome

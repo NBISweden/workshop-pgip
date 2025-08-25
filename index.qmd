@@ -11,9 +11,12 @@ format:
 execute:
   freeze: false
   cache: false
+include-in-header:
+  - text: |
+      <style>.logo { padding: 3em 0 .3em 0; }</style>
 ---
 
-
+# NBIS • Workshop
 
 ```{r }
 #| label: load-course-date-info
@@ -32,13 +35,11 @@ if (grepl("TBA$", current)) {
 }
 ```
 
-### NBIS • Workshop
+## Population genomics in practice
 
-### DDLS Population genomics in practice
+Welcome to the Population Genomics in Practice homepage!
 
-Welcome to the DDLS Population Genomics in Practice homepage!
-
-#### Important dates and information
+### Important dates and information
 
 See the canvas home page for the current course
 [`r current`](`r session$canvas_home_page`) for more
@@ -71,7 +72,7 @@ cat(
 )
 ```
 
-#### Brief contents
+### Brief contents
 
 :::: {.columns}
 
@@ -94,21 +95,30 @@ hotels.
 
 ::: {.column width="50%"}
 
-![](img/ooa-demesdraw-fig-1.svg){height="600px"}
+![Demesdraw image of out of Africa
+model.](img/ooa-demesdraw-fig-1.svg){height="600px"}\
 
 :::
 
 ::::
 
-#### Course archive
+### Course material
 
-- [DDLS Population Genomics In Practice 2023](https://nbisweden.github.io/workshop-pgip/)
+::: {.callout-important icon=false .large}
 
-<br>
+A link to course material will be added soon.
 
-![](assets/logos/nbis-scilifelab.svg){height="1.2em"}
+:::
 
-<br>
+### Course archive
+
+- [DDLS Population Genomics In Practice 2023](https://nbisweden.github.io/workshop-pgip-H23/)
+
+:::{.logo}
+
+![NBIS scilifelab combined logo.](assets/logos/nbis-scilifelab.svg){height="1.2em"}\
+
+:::
 
 ---
 
