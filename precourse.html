@@ -134,7 +134,7 @@ div.csl-indent {
 <li>
 <a href="#dardel-compute-resources" id="toc-dardel-compute-resources" class="nav-link active" data-scroll-target="#dardel-compute-resources">Dardel compute resources</a>
   <ul class="collapse">
-<li><a href="#naiss-account" id="toc-naiss-account" class="nav-link" data-scroll-target="#naiss-account">NAISS account</a></li>
+<li><a href="#suprpdc-account" id="toc-suprpdc-account" class="nav-link" data-scroll-target="#suprpdc-account">SUPR/PDC account</a></li>
   <li><a href="#dardel-tutorials" id="toc-dardel-tutorials" class="nav-link" data-scroll-target="#dardel-tutorials">Dardel tutorials</a></li>
   </ul>
 </li>
@@ -168,22 +168,23 @@ div.csl-indent {
 <!-- markdownlint-disable MD013 -->
 <p>Computer exercises can be run on the <a href="https://www.pdc.kth.se/hpc-services/computing-systems/dardel-hpc-system/dardel-1.1043529">Dardel HPC cluster</a> at Stockholm maintained by <a href="https://www.pdc.kth.se/">PDC</a>. However, you can also opt to run exercises on your own computer (see <a href="#sec-software-installation">software installation</a> below).</p>
 <!-- markdownlint-enable MD013 -->
-<section id="naiss-account" class="level3"><h3 class="anchored" data-anchor-id="naiss-account">NAISS account</h3>
+<section id="suprpdc-account" class="level3"><h3 class="anchored" data-anchor-id="suprpdc-account">SUPR/PDC account</h3>
 <!-- markdownlint-disable MD013 -->
-<p>You will need a <a href="https://support.pdc.kth.se/doc/getting_access/get_access/#applying-for-an-account">PDC account</a> to run exercises on Dardel. This is easiest done by <a href="https://supr.naiss.se/person/register/">applying for a SUPR account</a> and request access to the PGIP compute project <code>pg_pgip_2025</code>.</p>
+<p>You will need a <a href="https://support.pdc.kth.se/doc/getting_access/get_access/#applying-for-an-account">PDC account</a> to run exercises on Dardel. The PDC account is needed to get access to the time allocation <code>edu25.pgip</code>. This is easiest done by <a href="https://supr.naiss.se/person/register/">applying for a SUPR account</a> and request access to the PGIP compute project <code>pg_pgip_2025</code> at <a href="https://supr.naiss.se/project/" class="uri">https://supr.naiss.se/project/</a> (heading <code>Request Membership in Project</code>). The <a href="https://support.pdc.kth.se/doc/getting_access/get_access#apply-via-pdc-webpage">PDC support pages</a> provide more details on how to apply for an account.</p>
 <!-- markdownlint-enable MD013 -->
 </section><section id="dardel-tutorials" class="level3"><h3 class="anchored" data-anchor-id="dardel-tutorials">Dardel tutorials</h3>
 <p>Look at <a href="https://support.pdc.kth.se/doc/site_map/" class="uri">https://support.pdc.kth.se/doc/site_map/</a>, in particular <a href="https://support.pdc.kth.se/doc/basics/quickstart/#how-to-log-in" class="uri">https://support.pdc.kth.se/doc/basics/quickstart/#how-to-log-in</a> for information on how to connect to and work on Dardel.</p>
 </section></section><section id="sec-software-installation" class="level2"><h2 class="anchored" data-anchor-id="sec-software-installation">Software installation</h2>
 <p>Although we will mainly work on Dardel, some exercises, notably the ones that utilise <a href="https://jupyter.org/">Jupyter</a> notebooks, benefit from working in a local compute environment on your computer. We will use the <a href="https://pixi.sh/latest/">pixi</a> package manager to install necessary requirements from the package repositories <a href="https://bioconda.github.io/">bioconda</a> and <a href="https://conda-forge.org/">conda-forge</a>.</p>
-<p>To start using pixi, follow the <a href="https://pixi.sh/latest/installation/">install instructions</a> to install. For a given exercise, software dependencise will be provided in a <a href="https://pixi.sh/latest/reference/pixi_manifest/#manifest-discovery">pixi manifest</a>, an example of which is shown here:</p>
+<p>To start using pixi, follow the <a href="https://pixi.sh/latest/installation/">install instructions</a> to install. For a given exercise, software dependencies will be provided in a <a href="https://pixi.sh/latest/reference/pixi_manifest/#manifest-discovery">pixi manifest</a>, an example of which is shown here:</p>
 <pre lang="text"><code>[workspace]
 channels = ["conda-forge", "bioconda"]
 name = "variant-calling"
 
 [dependencies]
 fastqc = "&gt;=0.12.1,&lt;0.13"</code></pre>
-<p>Copy the contents to a file <code>pixi.toml</code> in an appropriately named directory (e.g., <code>variant-calling</code>), <code>cd</code> to directory and activate environment with <code>pixi shell</code>. As mentioned above, you can choose to run all exercises on a local computer if you have pixi setup. You would then need to download data. We have tried to make the exercise data sets small such that you can run them locally.</p>
+<p>Copy the contents to a file <code>pixi.toml</code> in an appropriately named directory (e.g., <code>variant-calling</code>), <code>cd</code> to directory and activate environment with <code>pixi shell</code>.</p>
+<p>As mentioned above, you can choose to run all exercises on a local computer if you have pixi setup. You would then need to download relevant data, as detailed for each exercise. We have tried to make the exercise data sets small such that you can run them locally.</p>
 </section><section id="suggested-readings" class="level2"><h2 class="anchored" data-anchor-id="suggested-readings">Suggested readings</h2>
 <p>Topics have been organized in modular units that consist of introductory slides and exercises. Some of the topics rely on concepts in population genetics and we recommend you at least skim these theoretical slides to be fully prepared for lectures.</p>
 <p><a href="https://nbisweden.github.io/workshop-pgip-H25/slides/pgip">Population genomics in practice</a> provides a quick overview of population genomics. Although not required, it is recommended to briefly go through the following papers that will be discussed in the lecture:</p>
