@@ -23,15 +23,21 @@ installation](#sec-software-installation) below).
 
 <!-- markdownlint-enable MD013 -->
 
-### NAISS account
+### SUPR/PDC account
 
 <!-- markdownlint-disable MD013 -->
 
 You will need a [PDC
 account](https://support.pdc.kth.se/doc/getting_access/get_access/#applying-for-an-account)
-to run exercises on Dardel. This is easiest done by [applying for a
-SUPR account](https://supr.naiss.se/person/register/) and request
-access to the PGIP compute project `{{< var naissproject >}}`.
+to run exercises on Dardel. The PDC account is needed to get access to
+the time allocation `{{< var pdc_time_allocation >}}`. This is easiest
+done by [applying for a SUPR
+account](https://supr.naiss.se/person/register/) and request access to
+the PGIP compute project `{{< var naissproject >}}` at
+<https://supr.naiss.se/project/> (heading `Request Membership in
+Project`). The [PDC support
+pages](https://support.pdc.kth.se/doc/getting_access/get_access#apply-via-pdc-webpage)
+provide more details on how to apply for an account.
 
 <!-- markdownlint-enable MD013 -->
 
@@ -53,7 +59,7 @@ necessary requirements from the package repositories
 
 To start using pixi, follow the [install
 instructions](https://pixi.sh/latest/installation/) to install. For a
-given exercise, software dependencise will be provided in a [pixi
+given exercise, software dependencies will be provided in a [pixi
 manifest](https://pixi.sh/latest/reference/pixi_manifest/#manifest-discovery),
 an example of which is shown here:
 
@@ -68,10 +74,12 @@ fastqc = ">=0.12.1,<0.13"
 
 Copy the contents to a file `pixi.toml` in an appropriately named
 directory (e.g., `variant-calling`), `cd` to directory and activate
-environment with `pixi shell`. As mentioned above, you can choose to
-run all exercises on a local computer if you have pixi setup. You
-would then need to download data. We have tried to make the exercise
-data sets small such that you can run them locally.
+environment with `pixi shell`.
+
+As mentioned above, you can choose to run all exercises on a local
+computer if you have pixi setup. You would then need to download
+relevant data, as detailed for each exercise. We have tried to make
+the exercise data sets small such that you can run them locally.
 
 ## Suggested readings
 
