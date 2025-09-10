@@ -1,52 +1,38 @@
 [
   {
-    "objectID": "info.html",
-    "href": "info.html",
-    "title": "Practical info",
+    "objectID": "contents.html",
+    "href": "contents.html",
+    "title": "Contents",
     "section": "",
-    "text": "This workshop is organised by the National Bioinformatics Infrastructure, Sweden (NBIS). NBIS is a platform of the Science for Life Laboratory (SciLifeLab).\nIf you would like to get in touch with us regarding this workshop, please contact us at edu.population-genomics-in-practice [at] nbis.se or edu.pgip [at] nbis.se."
+    "text": "Note\n\n\n\nThe contents are being updated.\n\n\n\n\n\n\n\n\n\n\n\nTitle\nTopic\nPresenter\n\n\n\n15-Sep-2025\n\n\n\n\nPopulation genomics in practice\n\nPU\n\n\nVariant calling I\nIntroduction to concepts and population genetic data\nPU\n\n\nIntroduction to variant calling\nShort introduction to variant calling and the CLI\nPU, VK, AS\n\n\nVariant calling II\nData quality control\nPU\n\n\nData QC\nQuality control of data\nPU, AS, VK\n\n\nVariant calling III\nRead mapping\nPU\n\n\nRead mapping\n\nPU, AS, VK\n\n\nVariant calling IV\nWorkflow-based variant calling\nPU\n\n\nVariant calling\nWorkflow-based variant calling\nPU, AS, VK\n\n\nVariant filtering I\nBasic variant filtering\nPU\n\n\nVariant filtering\nBasic variant filtering following standard guidelines.\nPU, AS, VK\n\n\n16-Sep-2025\n\n\n\n\nRecombination and linkage I\nIntroduction to recombination and linkage\nPU\n\n\nLD decay\nCalculation of LD decay\nPU, AS, VK\n\n\nLD decay continued\n\nPU, AS, VK\n\n\nRecombination and linkage II\nNon-model organism variant filtering\nPU\n\n\nGenetic diversity\nSummarizing genetic variation data; pi, Watterson’s theta\nPU\n\n\nGenetic diversity\npixy, vcftools\nPU, AS, VK\n\n\nGenetic diversity II\ndXY, Fst, relation to trees and branch lengths, relation to recombination\nPU\n\n\nGenetic diversity\nBranch length statistics\nPU, AS, VK\n\n\n17-Sep-2025\n\n\n\n\nSelection\nPopulation genetics of selection\nPU\n\n\nSelection\nApplications\nJH\n\n\nSelection\n\nPU, AS, JH, VK\n\n\nDemography\nPopulation genetics of demography\nPU\n\n\nDemography\nApplications\nAS\n\n\nDemography\nPSMC\nPU, AS, JH, VK\n\n\nDemography\nMSMC\nPU, AS, JH, VK\n\n\n18-Sep-2025\n\n\n\n\nPopulation structure I\nIntroduction to theory, PCA\nPU\n\n\nPopulation structure I\nPrincipal component analysis\nPU, AS, VK\n\n\nPopulation structure I, continued\n\nAS\n\n\nPopulation structure II\nAdmixture\nPU\n\n\nPopulation structure II\nAdmixture\nPU, AS, VK\n\n\nPopulation structure III\nf and D statistics\nPU\n\n\nPopulation structure III\nAdmixtools\nPU, AS, VK\n\n\n19-Sep-2025\n\n\n\n\nIntroduction to simulation\n\nPU\n\n\nstdpopsim lab\n\nPU, AS, VK\n\n\nIntroduction to the coalescent\n\nPU, JH, VK\n\n\nmsprime / SLiM lab\n\n\n\n\nTree sequence inference\n\nPU\n\n\nIntroduction to tsinfer\n\nPU, JH, VK\n\n\n\n\n\n\n\n\n\n   Slides    Slides (Google Drive)    Exercises (JupyterLite)    Exercises (Google CoLab)"
   },
   {
-    "objectID": "info.html#organizers",
-    "href": "info.html#organizers",
-    "title": "Practical info",
-    "section": "Organizers",
-    "text": "Organizers\n\n\n\n\nJason Hill\n\n\n\n\n\nVerena Kutschera\n\n\n\n\n\nAndré Soares\n\n\n\n\n\nPer Unneberg"
-  },
-  {
-    "objectID": "info.html#venue",
-    "href": "info.html#venue",
-    "title": "Practical info",
-    "section": "Venue",
-    "text": "Venue\nThe workshop is held onsite in Trippelrummet in Navet at the Uppsala Biomedical Centre, Uppsala.\n\nLocation\n\n\nUppsala\n\nRoom E10:1309 Entrance C11 Biomedicinskt centrum Uppsala University / ScilifeLab Husargatan 3 75237 Uppsala Sweden\nSome selected hotels are listed below ranked by distance from the venue.\n\n\nHotel von Kraemer (900 m, 11 min walk)\n\nAkademihotellet (1.7 Km, 21 min walk)\n\nCityStay Hotell (1.8 Km, 21 min walk)\n\nGrand Hotel Hörnan (1.9 Km, 23 min walk)\n\nHotell Centralstation (2.1 Km, 25 min walk)\n\nBest Western Svava (2.2 Km, 26 min walk)\n\nThe venue and hotels are also marked on the map.\nUse the UL website or the UL app for bus and train services around Uppsala. For buses from the Centralstation (Train/Bus), take Bus 4 (towards Gottsunda Centrum) or 8 (towards Sunnersta) and get off at the stop Uppsala Science Park. Bus tickets can be purchased in the app or directly from the driver using a credit card."
-  },
-  {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": "Schedule",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NBIS • Workshop",
     "section": "",
-    "text": "Note\n\n\n\nSchedule will be announced shortly."
+    "text": "Welcome to the Population Genomics in Practice homepage!\n\nSee the canvas home page for the current course NBIS_POPGENIP_H25 for more information on how to apply.\n\n\n\nNext round\n15-Sep-2025 - 19-Sep-2025\n\n\nApplication opens\n13-Jan-2025\n\n\nApplication deadline\n15-May-2025\n\n\n\n\n\n\nThis workshop includes the following moments:\n\nVariant calling and filtering\nDescribing and summarising variation data\nPopulation structure\nDemographic analysis\nSelection scans\nCoalescent simulation\n\nSee syllabus for a more complete description of course contents and info for practical information on venue and hotels.\n\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nA link to course material will be added soon.\n\n\n\n\nDDLS Population Genomics In Practice 2023\n\n\n\n\n\n\n\nLast updated on  10-Sep-2025"
   },
   {
-    "objectID": "syllabus.html",
-    "href": "syllabus.html",
-    "title": "Syllabus",
+    "objectID": "index.html#population-genomics-in-practice",
+    "href": "index.html#population-genomics-in-practice",
+    "title": "NBIS • Workshop",
     "section": "",
-    "text": "The aim of this workshop is to provide an introduction to commonly used methods in population genomics. As the focus of the course is on hands-on work, the topics have been designed to cover the fundamental analyses that are common in many population genomics studies. The course consists of lectures and exercises, with a focus on the practical aspects of analyses. Whereas lectures introduce some background theory, their primary aim is to set the stage for accompanying exercises.\n\nCovered topicsLearning objectivesRequirements\n\n\n\nFoundations of population genetics\nIntroduction to simulation and the coalescent\nBasics of variant calling\nVariant filtering and sequence masks\nCharacterization and intepretation of DNA sequence variation\nCalculation and interpretation of summary statistics from variation data\nInvestigating population structure with admixture modelling and principal component analyses\nDemographic modelling using sequentially Markovian coalescent models and linkage disequlibrium\nSelection scans\n\n\n\nUpon completion of this course, you will be able to:\n\ndescribe the different forces of evolution and how they influence genetic variation\nunderstand and interpret genealogical trees and how they relate to genetic variation data\ndescribe the basics of the coalescent\nperform simple coalescent simulations with msprime\nrun simple SLiM forward simulation models\ndescribe and run the steps of a variant calling pipeline, including quality control of raw reads, read mapping, and variant calling\nknow how and when to filter raw variant calls using manual coverage filters\ndescribe and calculate nucleotide diversity from variation data\nanalyze population structure with admixture modelling and dimensionality reduction methods\nperform demographic modelling with sequential Markovian coalescent models\ndescribe methods that identify regions undergoing adaptation and selection\nrun selection scans, score identified regions and interpret findings in the context of genome annotations\n\n\n\n\nBasic knowledge in R or Python\nBasic knowledge of variant calling, or the equivalent of NBIS course “Introduction to Bioinformatics using NGS data”\nBasic knowledge of population genetics\nBasic understanding of frequentist statistics\nA computer\n\nDesirable:\n\nExperience with analysis of NGS and other omic data"
+    "text": "Welcome to the Population Genomics in Practice homepage!\n\nSee the canvas home page for the current course NBIS_POPGENIP_H25 for more information on how to apply.\n\n\n\nNext round\n15-Sep-2025 - 19-Sep-2025\n\n\nApplication opens\n13-Jan-2025\n\n\nApplication deadline\n15-May-2025\n\n\n\n\n\n\nThis workshop includes the following moments:\n\nVariant calling and filtering\nDescribing and summarising variation data\nPopulation structure\nDemographic analysis\nSelection scans\nCoalescent simulation\n\nSee syllabus for a more complete description of course contents and info for practical information on venue and hotels.\n\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nA link to course material will be added soon.\n\n\n\n\nDDLS Population Genomics In Practice 2023\n\n\n\n\n\n\n\nLast updated on  10-Sep-2025"
   },
   {
     "objectID": "precourse.html",
     "href": "precourse.html",
     "title": "Precourse",
     "section": "",
-    "text": "Computer exercises can be run on the Dardel HPC cluster at Stockholm maintained by PDC. However, you can also opt to run exercises on your own computer (see software installation below).\n\n\n\nYou will need a PDC account to run exercises on Dardel. The PDC account is needed to get access to the time allocation edu25.pgip. This is easiest done by applying for a SUPR account and request access to the PGIP compute project pg_pgip_2025 at https://supr.naiss.se/project/ (heading Request Membership in Project). The PDC support pages provide more details on how to apply for an account.\n\n\nLook at https://support.pdc.kth.se/doc/site_map/, in particular https://support.pdc.kth.se/doc/basics/quickstart/#how-to-log-in for information on how to connect to and work on Dardel."
+    "text": "Computer exercises can be run on the Dardel HPC cluster at Stockholm maintained by PDC. However, you can also opt to run exercises on your own computer (see software installation below).\n\n\n\nYou will need a SUPR account to run exercises on Dardel. To access the time allocation you need to request access to the PGIP compute project pg_pgip_2025 at https://supr.naiss.se/project/ (heading Request Membership in Project). The PDC support pages provide more details on how to apply for an account.\n\n\nLook at https://support.pdc.kth.se/doc/site_map/, in particular https://support.pdc.kth.se/doc/basics/quickstart/#how-to-log-in for information on how to connect to and work on Dardel."
   },
   {
     "objectID": "precourse.html#dardel-compute-resources",
     "href": "precourse.html#dardel-compute-resources",
     "title": "Precourse",
     "section": "",
-    "text": "Computer exercises can be run on the Dardel HPC cluster at Stockholm maintained by PDC. However, you can also opt to run exercises on your own computer (see software installation below).\n\n\n\nYou will need a PDC account to run exercises on Dardel. The PDC account is needed to get access to the time allocation edu25.pgip. This is easiest done by applying for a SUPR account and request access to the PGIP compute project pg_pgip_2025 at https://supr.naiss.se/project/ (heading Request Membership in Project). The PDC support pages provide more details on how to apply for an account.\n\n\nLook at https://support.pdc.kth.se/doc/site_map/, in particular https://support.pdc.kth.se/doc/basics/quickstart/#how-to-log-in for information on how to connect to and work on Dardel."
+    "text": "Computer exercises can be run on the Dardel HPC cluster at Stockholm maintained by PDC. However, you can also opt to run exercises on your own computer (see software installation below).\n\n\n\nYou will need a SUPR account to run exercises on Dardel. To access the time allocation you need to request access to the PGIP compute project pg_pgip_2025 at https://supr.naiss.se/project/ (heading Request Membership in Project). The PDC support pages provide more details on how to apply for an account.\n\n\nLook at https://support.pdc.kth.se/doc/site_map/, in particular https://support.pdc.kth.se/doc/basics/quickstart/#how-to-log-in for information on how to connect to and work on Dardel."
   },
   {
     "objectID": "precourse.html#sec-software-installation",
@@ -70,17 +56,38 @@
     "text": "Resources\nLiterature\nLecture notes have been prepared based on the literature listed below.\nOnline\n\nGraham Coop’s notes on population genetics\n\nComprehensive introduction to population genetics. Contains many biological examples and code snippets. (Graham Coop, 2020).\n\nJonathan Pritchard’s introduction to human population genetics.\n\nAlthough focussing more on human data, contains excellent explanations of statistical concepts and lots of instructive drawings. (Pritchard, n.d.)\n\nJoachim Hermisson’s notes on mathematical population genetics\n\nIntroduction to mathematical population genetics (Hermisson, 2017, 2018).\n\nBooks\n\nPopulation Genetics: A Concise Guide\n\nJohn Gillespie’s short but excellent introduction to population genetics (Gillespie, 2004).\n\nMolecular Population Genetics\n\nA more recent introduction to population genetics with more focus on the analyses of sequencing data (Hahn, 2019).\n\nMolecular Evolution and Phylogenetics\n\nOverview of molecular evolution and population genetics, and also phylogenetics (Nei & Kumar, 2000).\n\nMathematical Population Genetics I\n\nA great reference when it comes to the mathematical treatment of population genetics (Ewens, 2004).\n\nPrinciples of Population Genetics\n\nA comprehensive textbook covering most topics of population genetics (Hartl & Clark, 1997).\n\nElements of Evolutionary Genetics\n\nIntroduction to evolutionary genetics (Charlesworth & Charlesworth, 2010).\n\nEvolution\n\nGreat comprehensive textbook covering evolution (Barton et al., 2007).\n\nCoalescent Theory: An Introduction\n\nA great introduction to coalescent theory (Wakeley, 2008).\n\nGene Genealogies, Variation and Evolution: A Primer in Coalescent Theory\n\nAlternative introduction to coalescent with more focus on the Wright-Fisher model (Hein et al., 2005)."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "NBIS • Workshop",
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
     "section": "",
-    "text": "Welcome to the Population Genomics in Practice homepage!\n\nSee the canvas home page for the current course NBIS_POPGENIP_H25 for more information on how to apply.\n\n\n\nNext round\n15-Sep-2025 - 19-Sep-2025\n\n\nApplication opens\n13-Jan-2025\n\n\nApplication deadline\n15-May-2025\n\n\n\n\n\n\nThis workshop includes the following moments:\n\nVariant calling and filtering\nDescribing and summarising variation data\nPopulation structure\nDemographic analysis\nSelection scans\nCoalescent simulation\n\nSee syllabus for a more complete description of course contents and info for practical information on venue and hotels.\n\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nA link to course material will be added soon.\n\n\n\n\nDDLS Population Genomics In Practice 2023\n\n\n\n\n\n\n\nLast updated on  26-Aug-2025"
+    "text": "The aim of this workshop is to provide an introduction to commonly used methods in population genomics. As the focus of the course is on hands-on work, the topics have been designed to cover the fundamental analyses that are common in many population genomics studies. The course consists of lectures and exercises, with a focus on the practical aspects of analyses. Whereas lectures introduce some background theory, their primary aim is to set the stage for accompanying exercises.\n\nCovered topicsLearning objectivesRequirements\n\n\n\nFoundations of population genetics\nIntroduction to simulation and the coalescent\nBasics of variant calling\nVariant filtering and sequence masks\nCharacterization and intepretation of DNA sequence variation\nCalculation and interpretation of summary statistics from variation data\nInvestigating population structure with admixture modelling and principal component analyses\nDemographic modelling using sequentially Markovian coalescent models and linkage disequlibrium\nSelection scans\n\n\n\nUpon completion of this course, you will be able to:\n\ndescribe the different forces of evolution and how they influence genetic variation\nunderstand and interpret genealogical trees and how they relate to genetic variation data\ndescribe the basics of the coalescent\nperform simple coalescent simulations with msprime\nrun simple SLiM forward simulation models\ndescribe and run the steps of a variant calling pipeline, including quality control of raw reads, read mapping, and variant calling\nknow how and when to filter raw variant calls using manual coverage filters\ndescribe and calculate nucleotide diversity from variation data\nanalyze population structure with admixture modelling and dimensionality reduction methods\nperform demographic modelling with sequential Markovian coalescent models\ndescribe methods that identify regions undergoing adaptation and selection\nrun selection scans, score identified regions and interpret findings in the context of genome annotations\n\n\n\n\nBasic knowledge in R or Python\nBasic knowledge of variant calling, or the equivalent of NBIS course “Introduction to Bioinformatics using NGS data”\nBasic knowledge of population genetics\nBasic understanding of frequentist statistics\nA computer\n\nDesirable:\n\nExperience with analysis of NGS and other omic data"
   },
   {
-    "objectID": "index.html#population-genomics-in-practice",
-    "href": "index.html#population-genomics-in-practice",
-    "title": "NBIS • Workshop",
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
     "section": "",
-    "text": "Welcome to the Population Genomics in Practice homepage!\n\nSee the canvas home page for the current course NBIS_POPGENIP_H25 for more information on how to apply.\n\n\n\nNext round\n15-Sep-2025 - 19-Sep-2025\n\n\nApplication opens\n13-Jan-2025\n\n\nApplication deadline\n15-May-2025\n\n\n\n\n\n\nThis workshop includes the following moments:\n\nVariant calling and filtering\nDescribing and summarising variation data\nPopulation structure\nDemographic analysis\nSelection scans\nCoalescent simulation\n\nSee syllabus for a more complete description of course contents and info for practical information on venue and hotels.\n\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nA link to course material will be added soon.\n\n\n\n\nDDLS Population Genomics In Practice 2023\n\n\n\n\n\n\n\nLast updated on  26-Aug-2025"
+    "text": "Note\n\n\n\nThis is a tentative schedule that may be subject to change during the course!\n\n\n\n\n\n\n\nToday"
+  },
+  {
+    "objectID": "info.html",
+    "href": "info.html",
+    "title": "Practical info",
+    "section": "",
+    "text": "This workshop is organised by the National Bioinformatics Infrastructure, Sweden (NBIS). NBIS is a platform of the Science for Life Laboratory (SciLifeLab).\nIf you would like to get in touch with us regarding this workshop, please contact us at edu.population-genomics-in-practice [at] nbis.se or edu.pgip [at] nbis.se."
+  },
+  {
+    "objectID": "info.html#organizers",
+    "href": "info.html#organizers",
+    "title": "Practical info",
+    "section": "Organizers",
+    "text": "Organizers\n\n\n\n\nJason Hill\n\n\n\n\n\nVerena Kutschera\n\n\n\n\n\nAndré Soares\n\n\n\n\n\nPer Unneberg"
+  },
+  {
+    "objectID": "info.html#venue",
+    "href": "info.html#venue",
+    "title": "Practical info",
+    "section": "Venue",
+    "text": "Venue\nThe workshop is held onsite in Trippelrummet in Navet at the Uppsala Biomedical Centre, Uppsala.\n\nLocation\n\n\nUppsala\n\nRoom E10:1309 Entrance C11 Biomedicinskt centrum Uppsala University / ScilifeLab Husargatan 3 75237 Uppsala Sweden\nSome selected hotels are listed below ranked by distance from the venue.\n\n\nHotel von Kraemer (900 m, 11 min walk)\n\nAkademihotellet (1.7 Km, 21 min walk)\n\nCityStay Hotell (1.8 Km, 21 min walk)\n\nGrand Hotel Hörnan (1.9 Km, 23 min walk)\n\nHotell Centralstation (2.1 Km, 25 min walk)\n\nBest Western Svava (2.2 Km, 26 min walk)\n\nThe venue and hotels are also marked on the map.\nUse the UL website or the UL app for bus and train services around Uppsala. For buses from the Centralstation (Train/Bus), take Bus 4 (towards Gottsunda Centrum) or 8 (towards Sunnersta) and get off at the stop Uppsala Science Park. Bus tickets can be purchased in the app or directly from the driver using a credit card."
   }
 ]
