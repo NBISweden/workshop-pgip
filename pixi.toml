@@ -36,5 +36,24 @@ toml-lint = "taplo lint --verbose **/pixi.toml"
 typecheck-python = "mypy"
 typos = "typos --write-changes --force-exclude"
 
+[feature.build.dependencies]
+r-devtools = "*"
+r-codetools = "*"
+r-downlit = "*"
+r-dplyr = "*"
+r-formattable = "*"
+r-googledrive = "*"
+r-googlesheets4 = "*"
+r-kableextra = "*"
+r-leaflet = "*"
+r-lubridate = "*"
+r-readxl = "*"
+r-reticulate = "*"
+r-rmarkdown = "*"
+r-tidyverse = "*"
+r-toastui = "*"
+r-xml2 = "*"
+
 [environments]
 lint = { features = ["lint"], solve-group = "prod" }
+build = ["build"]

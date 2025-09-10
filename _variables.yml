@@ -1,4 +1,4 @@
 # -*- yaml -*-
 naissproject: pg_pgip_2025
-pdc_time_allocation: edu25.pgip
+naiss_time_allocation: naiss2025-22-825
 pgip_material: https://nbisweden.github.io/workshop-pgip-H25

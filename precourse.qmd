@@ -23,19 +23,14 @@ installation](#sec-software-installation) below).
 
 <!-- markdownlint-enable MD013 -->
 
-### SUPR/PDC account
+### SUPR account
 
 <!-- markdownlint-disable MD013 -->
 
-You will need a [PDC
-account](https://support.pdc.kth.se/doc/getting_access/get_access/#applying-for-an-account)
-to run exercises on Dardel. The PDC account is needed to get access to
-the time allocation `{{< var pdc_time_allocation >}}`. This is easiest
-done by [applying for a SUPR
-account](https://supr.naiss.se/person/register/) and request access to
-the PGIP compute project `{{< var naissproject >}}` at
-<https://supr.naiss.se/project/> (heading `Request Membership in
-Project`). The [PDC support
+You will need a [SUPR account](https://supr.naiss.se/person/register/)
+to run exercises on Dardel. To access the time allocation you need to
+request access to the PGIP compute project `{{< var naissproject >}}`
+at <https://supr.naiss.se/project/> (heading `Request Membership in Project`). The [PDC support
 pages](https://support.pdc.kth.se/doc/getting_access/get_access#apply-via-pdc-webpage)
 provide more details on how to apply for an account.
 

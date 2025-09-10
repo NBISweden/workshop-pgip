@@ -16,14 +16,15 @@ execute:
 
 ::: {.callout-note}
 
-Schedule will be announced shortly.
+This is a tentative schedule that may be subject to change during the
+course!
 
 :::
 
 ```{r }
 #| label: toastui-calendar
 #| echo: false
-#| eval: false
+#| eval: true
 fn_rle <- function(x) {
   r <- rle(x)
   return(rep(paste(r$values, 1:length(r$values), sep = "-"), times = r$lengths))
@@ -44,7 +45,8 @@ dfr <- s %>%
   mutate(end = start + delta) %>%
   mutate(grp = paste0(fn_rle(type), "-", fn_rle(title)), .by = date) %>%
   mutate(body_full = paste(
-    .$body,
+             ifelse(is.na(.$body), "",
+                    .$body),
     ifelse(is.na(.$instructor), "",
       paste0("<br>", .$instructor)
     )
@@ -64,15 +66,41 @@ dfr <- s %>%
   mutate(category = "time") %>%
   dplyr::arrange(start)
 
+nbiscolors <- list(
+    lime="#a7c947",
+    lime25="#e9f2d1",
+    lime50="#d3e4a3",
+    lime75="#bdd775",
+    teal="#045c64",
+    teal25="#c0d6d8",
+    teal50="#82aeb2",
+    teal75="#43858b",
+    aqua="#4c979f",
+    aqua25="#d2e5e7",
+    aqua50="#a6cbcf",
+    aqua75="#79b1b7",
+    grape="#491f53",
+    grape25="#d2c7d4",
+    grape50="#a48fa9",
+    grape75="#77577e",
+    lightgray="#e5e5e5",
+    mediumgray="#a6a6a6",
+    darkgray="#3f3f3f",
+    black="#202020"
+)
 
 colors <- data.frame(
   id = c("1", "2", "3", "4", "5", "6"),
   name = c("Break", "Extra", "Lab", "Talk", "Session", "Seminar"),
   color = c(rep("#2c3e50", 6)),
-  backgroundColor =
-  c("#fcf3cf", "#a9dfbf", "#fae5d3", "#e8daef", "#e9f2d1",  "#d6eaf8"),
-  borderColor =
-    c("#f7dc6f", "#7dcea0", "#f0b27a", "#bb8fce", "#a7c947", "#85c1e9")
+  backgroundColor = c(
+      nbiscolors$lightgray, nbiscolors$aqua25, nbiscolors$teal50,
+      nbiscolors$lime25, nbiscolors$lime75, nbiscolors$grape50
+  ),
+  borderColor = c(
+      nbiscolors$darkgray, nbiscolors$aqua, nbiscolors$teal,
+      nbiscolors$lime, nbiscolors$lime, nbiscolors$grape
+  )
 )
 rownames(colors) <- colors$id
 
@@ -83,7 +111,7 @@ calendar(dfr,
   cal_week_options(
     startDayOfWeek = 1, hourStart = 9, hourEnd = 17,
     eventView = "time", showNowIndicator = TRUE,
-    endDayOfWeek = 4
+    endDayOfWeek = 4, workweek=TRUE
   ) %>%
   cal_props(colors)
 ```
