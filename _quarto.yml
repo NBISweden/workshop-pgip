@@ -6,6 +6,7 @@ project:
   render:
     - index.qmd
     - schedule.qmd
+    - contents.qmd
     - syllabus.qmd
     - info.qmd
     - precourse.qmd
@@ -19,6 +20,7 @@ website:
       - href: index.qmd
         text: Home
       - schedule.qmd
+      - contents.qmd
       - syllabus.qmd
       - info.qmd
       - precourse.qmd
