@@ -39,6 +39,10 @@ if (grepl("TBA$", current)) {
 
 Welcome to the Population Genomics in Practice homepage!
 
+This site contains general information about the course. For current
+course round material, navigate to
+<https://nbisweden.github.io/workshop-pgip-H25>.
+
 ### Important dates and information
 
 See the canvas home page for the current course
